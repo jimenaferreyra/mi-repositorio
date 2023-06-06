@@ -1,52 +1,91 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TURIFLY - Viajes</title>
-    <link rel="stylesheet" href="./css/styles.css">
+  <meta charset="UTF-8">
+  <title>Turifly - Inicio</title>
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-    <header>
-        <nav>
-            <a href="#" class="logo">TURIFLY</a>
-            <ul>
-                <li><a href="./pages/inicio.html">Inicio</a></li>
-                <li><a href="./pages/destinos.html">Destinos</a></li>
-                <li><a href="./pages/arma-tu-viaje.html">Arma tu Viaje</a></li>
-                <li><a href="./pages/nosotros.html">Nosotros</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-                <li><a href="#"><i class="fas fa-user"></i></a></li>
-            </ul>
-            <div class="user">
-				<a href="#">Iniciar sesión</a>
-			</div>
-			<div class="search">
-				<input type="text" placeholder="Buscar...">
-				<button><i class="fa fa-search"></i></button>
-			</div>
-        </nav>
-        <h1>BIENVENIDOS A TURIFLY</h1>
-    </header>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#"><img src="logo.png" alt="Turifly Logo"></a>
+      </div>
+      <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Destinos</a></li>
+        <li><a href="#">Arma tu Viaje</a></li>
+        <li><a href="#">Nosotros</a></li>
+        <li><a href="#">Contacto</a></li>
+      </ul>
+      <div class="user">
+        <a href="#"><i class="fas fa-user"></i> Iniciar sesión</a>
+        <input type="text" placeholder="Buscar">
+      </div>
+    </nav>
+  </header>
 
-    <main>
-        <section class="destinos">
-            <h2>Destinos del Mes</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, voluptatem quasi soluta consectetur ipsam et deleniti minima, vitae temporibus quia recusandae deserunt quod. Aperiam reiciendis odit aspernatur esse! Ipsam, molestias!</p>
-            <img src="./img/playa1.jpeg" width="350" height="300" alt="Destino del mes">
-        </section>
+  <main>
+    <section class="destinos-mes">
+      <h2>Destinos del Mes</h2>
+      <div class="destino">
+        <img src="destino1.jpg" alt="Destino 1">
+        <h3>Destino 1</h3>
+        <p>Descripción del Destino 1</p>
+      </div>
+      <div class="destino">
+        <img src="destino2.jpg" alt="Destino 2">
+        <h3>Destino 2</h3>
+        <p>Descripción del Destino 2</p>
+      </div>
+      <div class="destino">
+        <img src="destino3.jpg" alt="Destino 3">
+        <h3>Destino 3</h3>
+        <p>Descripción del Destino 3</p>
+      </div>
+      <div class="destino">
+        <img src="destino4.jpg" alt="Destino 4">
+        <h3>Destino 4</h3>
+        <p>Descripción del Destino 4</p>
+      </div>
+    </section>
 
-        <section class="guia">
-            <h2>Guía completa para viajes</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum saepe voluptate at iste quasi ex error alias perferendis, adipisci, nisi, laboriosam amet qui ad nihil ducimus! Dolorum necessitatibus odio corrupti!</p>
-        </section>
+    <section class="guia-viajes">
+      <h2>Guía Completa para Viajes</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc mollis diam non massa aliquet, vitae vulputate lectus consectetur. Fusce nec orci tincidunt, auctor sem eget, fringilla metus. Curabitur sit amet posuere odio. Fusce congue velit ligula, nec efficitur nisi condimentum at. Nam sit amet faucibus mi.</p>
+    </section>
 
-        <section class="playaomontana">
-            <h2>¿Playa o Montaña?</h2>
-            <img src="./img/playamont.png" width="350" height="300" alt="Playa">
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laudantium excepturi rem blanditiis cupiditate odio atque, illum libero veniam minus recusandae dolor voluptates. Accusamus molestiae, magni iure reprehenderit iste nihil laborum.</p>
-        
-        </section>
-    </main>
+    <section class="playa-montana">
+      <h2>¿Playa o Montaña?</h2>
+      <div class="texto-imagen">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed fermentum malesuada libero, vel ultricies tellus semper ac. Aliquam non dictum mauris. Ut condimentum quam eu purus laoreet dapibus. Vivamus nec felis at erat suscipit varius id nec neque.</p>
+        <img src="playa-montana.jpg" alt="Playa o Montaña">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="nuestras-oficinas">
+      <h3>Nuestras Oficinas</h3>
+      <p>Dirección de la oficina 1</p>
+      <p>Dirección de la oficina 2</p>
+    </div>
+
+    <div class="canales-contacto">
+      <h3>Canales de Contacto</h3>
+      <p>Email: info@turifly.com</p>
+      <p>Teléfono: +1 234 5678</p>
+    </div>
+
+    <div class="redes-sociales">
+      <h3>Redes Sociales</h3>
+      <ul>
+        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+      </ul>
+    </div>
+  </footer>
 </body>
 </html>

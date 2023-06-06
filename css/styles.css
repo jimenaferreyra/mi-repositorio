@@ -1,69 +1,109 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
+/* Estilos generales */
 body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #333;
-}
-
-header {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
     background-color: #333;
     color: #fff;
     padding: 20px;
-}
-
-nav {
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo img {
+    height: 30px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .user input {
+    margin-left: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .destino {
+    display: inline-block;
+    margin-right: 20px;
+    width: calc(25% - 20px);
+  }
+  
+  .destino img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .guia-viajes {
+    text-align: center;
+  }
+  
+  .playa-montana {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    font-size: 28px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #fff;
-    text-decoration: none;
-}
-
-ul {
-    display: flex;
-    list-style: none;
-}
-
-li {
-    margin: 0 10px;
-}
-
-a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.fa-user {
-    font-size: 20px;
-}
-
-input[type="text"] {
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-}
-
-main {
-    max-width: 1200px;
-    margin: 0 auto;
+  }
+  
+  .playa-montana img {
+    width: 50%;
+    height: auto;
+  }
+  
+  footer {
+    background-color: #f4f4f4;
     padding: 20px;
-}
-header h1 {
-    text-align: center;
-}
-
-p {
-	text-align: center;
-}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer div {
+    flex-basis: 30%;
+  }
+  
+  footer h3 {
+    margin-bottom: 10px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  footer ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
